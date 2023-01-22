@@ -8,9 +8,7 @@
    </top>
    <center>
 <fx:include fx:id="contentPane" source="contentPane.fxml" BorderPane.alignment="BOTTOM_RIGHT">
-         <rotationAxis>
-            <Point3D />
-         </rotationAxis></fx:include>
+        </fx:include>
    </center>
    <bottom>
    <fx:include fx:id="controlPane" source="controlPane.fxml" />

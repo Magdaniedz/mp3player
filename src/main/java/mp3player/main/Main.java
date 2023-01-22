@@ -13,9 +13,6 @@ public class Main extends Application {
         launch(args);
     }
 
-
-
-
     @Override
     public void start(Stage stage) throws Exception {
         Pane mainPane= FXMLLoader.load(getClass().getResource("/fxml/mainPane.fxml"));
