@@ -21,6 +21,19 @@ public class Mp3Player {
         return mediaPlayer;
     }
 
+    public void loadSong(int index){
+        if( mediaPlayer !=null && mediaPlayer.getStatus() == MediaPlayer.Status.PLAYING){
+            mediaPlayer.stop();
+        }
+        Mp3Song mp3s = songList.get(index);
+        media = new Media(new File(mp3s.getFilePath()).toURI().toString());
+        mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.statusProperty().addListener((observable, oldStatus, newStatus) -> {
+            if (newStatus == MediaPlayer.Status.READY)
+                mediaPlayer.setAutoPlay(true);
+
+        });
+    }
     public void play() {
         if (mediaPlayer !=null && mediaPlayer.getStatus()== MediaPlayer.Status.READY ||mediaPlayer.getStatus()==MediaPlayer.Status.PAUSED) {
             mediaPlayer.play();
@@ -44,19 +57,6 @@ public class Mp3Player {
         if (mediaPlayer!=null) {
             mediaPlayer.setVolume(volume);
         }
-    }
-    public void loadSong(int index){
-        if( mediaPlayer !=null && mediaPlayer.getStatus() == MediaPlayer.Status.PLAYING){
-            mediaPlayer.stop();
-        }
-    Mp3Song mp3s = songList.get(index);
-        media = new Media(new File(mp3s.getFilePath()).toURI().toString());
-        mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.statusProperty().addListener((observable, oldStatus, newStatus) -> {
-        if (newStatus == MediaPlayer.Status.READY)
-            mediaPlayer.setAutoPlay(true);
-
-        });
     }
 
 }

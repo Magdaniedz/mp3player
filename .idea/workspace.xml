@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009eb88-ab88-4323-a6a7-d12468a1eafd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mp3player/mp3/Mp3Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mp3player/player/Mp3Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/aboutPane.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d009eb88-ab88-4323-a6a7-d12468a1eafd" name="Changes" comment="player and buttons configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/controller/ContentPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/controller/ContentPaneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/controller/ControlPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/controller/ControlPaneController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/controller/MenuPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/controller/MenuPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/contentPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/contentPane.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/mainPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/mainPane.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mp3/scott_holmes_music.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/player/Mp3Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/player/Mp3Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/controlPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/controlPane.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +97,50 @@
       <workItem from="1674230499565" duration="5121000" />
       <workItem from="1674238041798" duration="1431000" />
       <workItem from="1674239498350" duration="763000" />
-      <workItem from="1674293099433" duration="24071000" />
+      <workItem from="1674293099433" duration="26485000" />
+      <workItem from="1674465289999" duration="133000" />
+      <workItem from="1674465578944" duration="600000" />
+      <workItem from="1674484443649" duration="30000" />
+      <workItem from="1674484498797" duration="601000" />
+      <workItem from="1674568344980" duration="1232000" />
+      <workItem from="1674663351749" duration="3182000" />
     </task>
+    <task id="LOCAL-00001" summary="player and buttons configuration">
+      <created>1674410409622</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674410409622</updated>
+    </task>
+    <task id="LOCAL-00002" summary="player and buttons configuration">
+      <created>1674410666970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674410666970</updated>
+    </task>
+    <task id="LOCAL-00003" summary="player and buttons configuration">
+      <created>1674410724735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674410724735</updated>
+    </task>
+    <task id="LOCAL-00004" summary="player and buttons configuration">
+      <created>1674410733408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674410733408</updated>
+    </task>
+    <task id="LOCAL-00005" summary="player and buttons configuration">
+      <created>1674411856057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674411856057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +156,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="player and buttons configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="player and buttons configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
