@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d009eb88-ab88-4323-a6a7-d12468a1eafd" name="Changes" comment="player and buttons configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/controller/ControlPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/controller/ControlPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mp3player/player/Mp3Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mp3player/player/Mp3Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/controlPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/controlPane.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="d009eb88-ab88-4323-a6a7-d12468a1eafd" name="Changes" comment="exceptions handling" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +97,7 @@
       <workItem from="1674484443649" duration="30000" />
       <workItem from="1674484498797" duration="601000" />
       <workItem from="1674568344980" duration="1232000" />
-      <workItem from="1674663351749" duration="3182000" />
+      <workItem from="1674663351749" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="player and buttons configuration">
       <created>1674410409622</created>
@@ -140,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674411856057</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="exceptions handling">
+      <created>1674666889965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674666889966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="player and buttons configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="player and buttons configuration" />
+    <MESSAGE value="exceptions handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="exceptions handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
